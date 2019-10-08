@@ -12,6 +12,7 @@
 		1B7D293E234CDC8C00BBBCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D293D234CDC8C00BBBCD1 /* Assets.xcassets */; };
 		1B7D2941234CDC8C00BBBCD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D293F234CDC8C00BBBCD1 /* LaunchScreen.storyboard */; };
 		1B7D2944234CDC8C00BBBCD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D2943234CDC8C00BBBCD1 /* main.m */; };
+		1B7D2951234CDE5E00BBBCD1 /* MRFEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D2950234CDE5E00BBBCD1 /* MRFEntry.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		1B7D2940234CDC8C00BBBCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B7D2942234CDC8C00BBBCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B7D2943234CDC8C00BBBCD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B7D294F234CDE5E00BBBCD1 /* MRFEntry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRFEntry.h; sourceTree = "<group>"; };
+		1B7D2950234CDE5E00BBBCD1 /* MRFEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRFEntry.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 		1B7D294C234CDDB200BBBCD1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1B7D294F234CDE5E00BBBCD1 /* MRFEntry.h */,
+				1B7D2950234CDE5E00BBBCD1 /* MRFEntry.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B7D2951234CDE5E00BBBCD1 /* MRFEntry.m in Sources */,
 				1B7D2944234CDC8C00BBBCD1 /* main.m in Sources */,
 				1B7D2936234CDC8B00BBBCD1 /* AppDelegate.m in Sources */,
 			);
