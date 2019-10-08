@@ -11,9 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MRFEntry : NSObject
-@property (nonatomic, copy, readonly) NSString * timestamp;
-@property (nonatomic, copy, readonly) NSDate * title;
-@property (nonatomic, readonly )NSString * bodyText;
+@property (nonatomic, copy, readonly) NSDate * timestamp;
+@property (nonatomic, copy, readonly) NSString * title;
+@property (nonatomic, readonly) NSString * bodyText;
 
 - (instancetype)initWithTitle:(NSString *)title bodyText:(NSString *)bodyText timestamp:(NSDate *)timestamp;
 @end
