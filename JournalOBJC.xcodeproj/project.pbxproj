@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1B7D2936234CDC8B00BBBCD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D2935234CDC8B00BBBCD1 /* AppDelegate.m */; };
-		1B7D2939234CDC8B00BBBCD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7D2938234CDC8B00BBBCD1 /* ViewController.m */; };
 		1B7D293C234CDC8B00BBBCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D293A234CDC8B00BBBCD1 /* Main.storyboard */; };
 		1B7D293E234CDC8C00BBBCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D293D234CDC8C00BBBCD1 /* Assets.xcassets */; };
 		1B7D2941234CDC8C00BBBCD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7D293F234CDC8C00BBBCD1 /* LaunchScreen.storyboard */; };
@@ -19,8 +18,6 @@
 		1B7D2931234CDC8B00BBBCD1 /* JournalOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JournalOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7D2934234CDC8B00BBBCD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B7D2935234CDC8B00BBBCD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B7D2937234CDC8B00BBBCD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B7D2938234CDC8B00BBBCD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1B7D293B234CDC8B00BBBCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B7D293D234CDC8C00BBBCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7D2940234CDC8C00BBBCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,17 +55,55 @@
 		1B7D2933234CDC8B00BBBCD1 /* JournalOBJC */ = {
 			isa = PBXGroup;
 			children = (
+				1B7D294B234CDDAB00BBBCD1 /* Storyboard */,
+				1B7D294E234CDDC100BBBCD1 /* View Controllers */,
+				1B7D294D234CDDB800BBBCD1 /* Model  Controller */,
+				1B7D294C234CDDB200BBBCD1 /* Model */,
+				1B7D294A234CDD9600BBBCD1 /* Resources */,
+			);
+			path = JournalOBJC;
+			sourceTree = "<group>";
+		};
+		1B7D294A234CDD9600BBBCD1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1B7D2934234CDC8B00BBBCD1 /* AppDelegate.h */,
 				1B7D2935234CDC8B00BBBCD1 /* AppDelegate.m */,
-				1B7D2937234CDC8B00BBBCD1 /* ViewController.h */,
-				1B7D2938234CDC8B00BBBCD1 /* ViewController.m */,
-				1B7D293A234CDC8B00BBBCD1 /* Main.storyboard */,
 				1B7D293D234CDC8C00BBBCD1 /* Assets.xcassets */,
 				1B7D293F234CDC8C00BBBCD1 /* LaunchScreen.storyboard */,
 				1B7D2942234CDC8C00BBBCD1 /* Info.plist */,
 				1B7D2943234CDC8C00BBBCD1 /* main.m */,
 			);
-			path = JournalOBJC;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B7D294B234CDDAB00BBBCD1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1B7D293A234CDC8B00BBBCD1 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1B7D294C234CDDB200BBBCD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B7D294D234CDDB800BBBCD1 /* Model  Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model  Controller";
+			sourceTree = "<group>";
+		};
+		1B7D294E234CDDC100BBBCD1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +132,7 @@
 		1B7D2929234CDC8A00BBBCD1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MRF;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Michael Flowers";
 				TargetAttributes = {
@@ -141,7 +177,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B7D2939234CDC8B00BBBCD1 /* ViewController.m in Sources */,
 				1B7D2944234CDC8C00BBBCD1 /* main.m in Sources */,
 				1B7D2936234CDC8B00BBBCD1 /* AppDelegate.m in Sources */,
 			);
@@ -287,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4W7EQ4E4R;
-				INFOPLIST_FILE = JournalOBJC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JournalOBJC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X4W7EQ4E4R;
-				INFOPLIST_FILE = JournalOBJC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JournalOBJC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
